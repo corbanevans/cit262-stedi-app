@@ -54,6 +54,7 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
                style={styles.sendButton}
               onPress={async ()=>{
                 console.log(phoneNumber+' Button was pressed')
+                console.log('Hello Corban')
                 
                 setLoggedInState(loggedInStates.LOGGING_IN);
     
